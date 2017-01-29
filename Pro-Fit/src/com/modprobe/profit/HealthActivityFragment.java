@@ -44,7 +44,7 @@ public class HealthActivityFragment extends Fragment {
 		pages.add(FragmentPagerItem.of(getString(R.string.tab_no_title),
 				ChatViewFragment.class));
 		pages.add(FragmentPagerItem.of(getString(R.string.tab_no_title),
-				MyProfileFragment.class));
+				PolicyDetailFragment.class));
 		pages.add(FragmentPagerItem.of(getString(R.string.tab_no_title),
 				BingFragment.class));
 

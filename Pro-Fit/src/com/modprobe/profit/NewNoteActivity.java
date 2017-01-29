@@ -101,7 +101,7 @@ public class NewNoteActivity extends ActionBarActivity {
 		
 		try{
 			if(flagActivity==1){
-				//Activity abc done with intensity X for Y minutes
+				//Activity abc done for Y minutes
 				String activityname = arr[1].trim();
 				for(int i = 2; i < flagDone; i++)	activityname+=" "+arr[i].trim();
 				activityname = activityname.trim();
@@ -124,7 +124,7 @@ public class NewNoteActivity extends ActionBarActivity {
 				//openChiragsFeedbcakFragment
 			}
 			else if(flagSession==1){
-				//Session abc done with intensity X
+				//Session abc done
 				String sessionname = arr[1].trim();
 				for(int i = 2; i< flagDone; i++)	sessionname+=" "+arr[i].trim();
 //				int intensity = Integer.parseInt(arr[flagIntensity+1].trim());

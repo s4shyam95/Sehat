@@ -70,21 +70,21 @@ public class AppController extends Application {
 	}
 
 	public void fill_data(){
-		g_database.add(new QueryMessage("Yo", null, Constants.TEXT, 2));
-		g_database.add(new QueryMessage("Ssup Nigga, you want to talk some shit?", null, Constants.TEXT, 1));
-		g_database.add(new QueryMessage("Ayo my mixtape just dropped", null, Constants.TEXT, 2));
-		g_database.add(new QueryMessage("Fire!", null, Constants.TEXT, 1));
-		g_database.add(new QueryMessage("I do it for the hood", null, Constants.TEXT, 2));
-		g_database.add(new QueryMessage("I do it for fish", null, Constants.TEXT, 2));
-		g_database.add(new QueryMessage("White is right!", null, Constants.TEXT, 1));
+		g_database.add(new QueryMessage("What diseases does HDFC Life's gold \npremium plan cover?\nDoes it cover mental illnesses?", null, Constants.TEXT, 2));
+		g_database.add(new QueryMessage("Yes it does. \nThe Anxiety Disorders, Adult Attention Deficit/Hyperactivity Disorder (ADHD/ADD),\nBipolar Disorder: Overview, Depression.\nEating Disorders are covered", null, Constants.TEXT, 1));
+//		g_database.add(new QueryMessage("What is the room rent limit?", null, Constants.TEXT, 2));
+//		g_database.add(new QueryMessage("Fire!", null, Constants.TEXT, 1));
+//		g_database.add(new QueryMessage("I do it for the hood", null, Constants.TEXT, 2));
+//		g_database.add(new QueryMessage("I do it for fish", null, Constants.TEXT, 2));
+//		g_database.add(new QueryMessage("White is right!", null, Constants.TEXT, 1));
 		
-		next_msgs.add(new QueryMessage("A", null, Constants.TEXT, 1));
-		next_msgs.add(new QueryMessage("B", null, Constants.TEXT, 1));
-		next_msgs.add(new QueryMessage("C", null, Constants.TEXT, 1));
-		next_msgs.add(new QueryMessage("D", null, Constants.TEXT, 1));
-		next_msgs.add(new QueryMessage("E", null, Constants.TEXT, 1));
-		next_msgs.add(new QueryMessage("F", null, Constants.TEXT, 1));
-		next_msgs.add(new QueryMessage("G", null, Constants.TEXT, 1));
+		next_msgs.add(new QueryMessage("The room rent limit under this plan is Rs 3000/-", null, Constants.TEXT, 1));
+		next_msgs.add(new QueryMessage("Happy to help you", null, Constants.TEXT, 1));
+//		next_msgs.add(new QueryMessage("C", null, Constants.TEXT, 1));
+//		next_msgs.add(new QueryMessage("D", null, Constants.TEXT, 1));
+//		next_msgs.add(new QueryMessage("E", null, Constants.TEXT, 1));
+//		next_msgs.add(new QueryMessage("F", null, Constants.TEXT, 1));
+//		next_msgs.add(new QueryMessage("G", null, Constants.TEXT, 1));
 	}
 	
 	public void fill_next(){

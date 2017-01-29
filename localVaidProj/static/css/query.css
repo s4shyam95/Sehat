@@ -1,0 +1,109 @@
+.message {
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.request {
+	background-color: #dddddd;
+	margin-right: 10%;
+	
+}
+
+.response {
+	background-color: #3F326B;
+	margin-left: 10%;
+	color: white;
+}
+/*
+*::-webkit-scrollbar {
+    width: 6px!important;
+}
+*::-webkit-scrollbar-track {
+    background: rgba(255,255,255,.08);
+}*/
+body, html {
+	height: 100%;
+	overflow: hidden;
+}
+
+#left {
+	position: absolute;
+	top: 130px;
+	bottom: 20px;
+	left: 0;
+	overflow-y: scroll; 
+}
+
+#right {
+	position: absolute;
+	top: 130px;
+	bottom: 20px;
+	right: 0;
+	overflow-y: scroll;
+}
+
+
+.chat-box {
+	padding-left: 120px;
+	padding-bottom: 50px;
+}
+.panels {
+	margin-right: 120px;
+	padding-left: 130px;
+}
+.row {
+	margin-top: 60px;
+    min-height: 100%;
+}
+textarea {
+	resize: none;
+	border: 1px solid #dddddd;
+	width: 100%;
+}
+textarea:focus {
+	border: 1px solid red;
+	outline: none;
+}
+
+.presc {
+	display: block;
+}
+.presc>p {
+	display: inline;
+}
+.check {
+	display: inline;
+	position: absolute;
+	right: 30px;
+	float: right!important;
+}
+
+.container {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.message-img {
+	max-width: 100%;
+}
+
+audio {
+	width: 100%;
+}
+.input-group {
+	width: 100%;
+}
+.send-button {
+	width: 10%;
+	border: 1px solid #3F326B;
+	background-color: #3F326B;
+}
+.form-control {
+	padding: 20px;
+	border-radius: 0;
+}
+.form-control:focus, .form-control:active{
+	outline: none;
+	border-radius: 0;
+	border: 1px solid #e62117;
+	box-shadow: none;
+}

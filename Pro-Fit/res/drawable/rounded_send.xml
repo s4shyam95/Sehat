@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:gravity="center"
+        android:height="48dp"
+        android:width="48dp">
+        <shape
+            android:padding="10dp"
+            android:shape="rectangle" >
+            <solid android:color="@color/sexy_green" />
+
+            <corners
+                android:bottomLeftRadius="50dp"
+                android:bottomRightRadius="50dp"
+                android:topLeftRadius="50dp"
+                android:topRightRadius="50dp" />
+        </shape>
+    </item>
+    <item
+        android:drawable="@drawable/ic_send"
+        android:gravity="center"
+        android:height="24dp"
+        android:width="24dp">
+    </item>
+
+</layer-list>

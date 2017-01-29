@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.modprobe.profit.SearchFragment" >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="100" >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/policyList"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="88" />
+
+        <Button
+            android:id="@+id/compareButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12"
+            android:background="?attr/colorAccent"
+            android:text="Compare"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</FrameLayout>

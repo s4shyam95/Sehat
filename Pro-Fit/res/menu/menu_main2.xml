@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/miCompose2"
+        android:icon="@drawable/ic_launcher2"
+        app:showAsAction="ifRoom"
+        android:title="Compose">
+    </item>
+    <item
+        android:id="@+id/filter"
+        android:icon="@drawable/filter"
+        app:showAsAction="ifRoom"
+        android:title="Filter">
+    </item>
+    <item
+        android:id="@+id/miProfile"
+        android:icon="@drawable/settings"
+        app:showAsAction="ifRoom|withText"
+        android:title="Settings">
+    </item>
+</menu>
+

@@ -71,7 +71,7 @@ public class AppController extends Application {
 
 	public void fill_data(){
 		g_database.add(new QueryMessage("What diseases does HDFC Life's gold \npremium plan cover?\nDoes it cover mental illnesses?", null, Constants.TEXT, 2));
-		g_database.add(new QueryMessage("Yes it does. \nThe Anxiety Disorders, Adult Attention Deficit/Hyperactivity Disorder (ADHD/ADD),\nBipolar Disorder: Overview, Depression.\nEating Disorders are covered", null, Constants.TEXT, 1));
+		g_database.add(new QueryMessage("Yes it does. \nThe Anxiety Disorders,\nAdult Attention Deficit/\nHyperactivity Disorder (ADHD/ADD),\nBipolar Disorder: Overview, \nDepression,\nEating Disorders are covered", null, Constants.TEXT, 1));
 //		g_database.add(new QueryMessage("What is the room rent limit?", null, Constants.TEXT, 2));
 //		g_database.add(new QueryMessage("Fire!", null, Constants.TEXT, 1));
 //		g_database.add(new QueryMessage("I do it for the hood", null, Constants.TEXT, 2));

@@ -47,9 +47,9 @@ public class PolicyListAdapter extends Adapter<PolicyViewHolder> {
 		Log.e("Name",contactViewHolder.toString());
 		AppController app = AppController.getInstance();
 		
-		contactViewHolder.cover.setText("₹ " + ci.insuranceCoverage + " COVER");
-		contactViewHolder.name.setText(ci.name + "");
-		contactViewHolder.premium.setText("₹ " + ci.premiumAmount + " PREMIUM");
+		contactViewHolder.cover.setText("₹ " + ci.insuranceCoverage + " Cover");
+		contactViewHolder.name.setText(ci.name.toUpperCase() + "");
+		contactViewHolder.premium.setText("₹ " + ci.premiumAmount + " Premium");
 		contactViewHolder.itemm1.setText("Maternity Cover");
 		contactViewHolder.itemm2.setText("Hospital Room");
 		contactViewHolder.itemm3.setText("Ambulance Cover");
